@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -192,6 +191,7 @@ section .title::after {
 .about1 .title::after{
     content: " i am good at";
 }
+
 .about .about-content .left {
     width: 45%;
 }
@@ -221,33 +221,32 @@ section .title::after {
     text-align: justify;
 }
 
-.about .about-content .right .button-area {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    margin-top: 20px;
-}
-
-.about .about-content .right button {
+.button-area .btn {
     color: #fff;
     display: block;
-    width: 160px !important;
+    width: 160px;
     height: 45px;
-    outline: none;
+    text-align: center;
+    line-height: 45px;
     font-size: 18px;
     font-weight: 500;
     border-radius: 6px;
     cursor: pointer;
-    background-color: #052123; /* Very dark (mostly black) cyan. */
-    border: 2px solid rgb(18, 12, 48); /* Very dark (mostly black) blue. */
+    background-color: #052123; /* Dark cyan background */
+    border: 2px solid rgb(18, 12, 48); /* Dark blue border */
+    text-decoration: none; /* Remove underline */
     transition: all 0.3s ease;
+    margin:10px;
 }
 
-.about .about-content .right .button-area button:hover {
+.button-area .btn:hover {
     color: #052123;
     background: none;
 }
+
+
+
+
 
 .education, .teams{
     color: brown;
